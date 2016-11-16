@@ -1,13 +1,18 @@
 import { Component } from '@angular/core';
 @Component({
   selector: 'my-app',
-  template: '<h1>Hello Angular! Oops 2 {{name}}</h1>',
+  template: '<h1>This is just the beginning {{name}}</h1>',
   styles: [`
+  red{
+    color:red;
+  }
     h1 {
-      color: green;
+      color: blue;
+      font-family: Arial, Helvetica, sans-serif;
     }
-  `]
+`]
 })
 export class AppComponent { 
-    name: string='nitesh';
+    name: string='Man';
+    
 }
